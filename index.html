@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIT Lateral Entry Calendar - University of Moratuwa - 24S2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 20px 0;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .calendar-info {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .calendar-info h2 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        .calendar-info p {
+            font-size: 1.1rem;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 30px 20px;
+            background: #f8f9fa;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+
+        .feature h3 {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+
+        .feature p {
+            color: #666;
+        }
+
+        .download-section {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .download-section h3 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-secondary {
+            background: #f8f9fa;
+            color: #2c3e50;
+            border: 2px solid #e9ecef;
+        }
+
+        .btn-secondary:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+        }
+
+        .instructions {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+        }
+
+        .instructions h4 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .instructions ol {
+            padding-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px 0;
+            color: white;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .calendar-info h2 {
+                font-size: 1.8rem;
+            }
+            
+            .button-group {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>📅 BIT Lateral Entry Calendar</h1>
+            <p>University of Moratuwa • 24S2</p>
+        </header>
+
+        <main class="main-content">
+            <div class="calendar-info">
+                <h2>Stay Updated with Your Academic Schedule</h2>
+                <!-- <p>Never miss important events, deadlines, or classes with our comprehensive calendar for BIT Lateral Entry students. Download or subscribe to automatically sync all your academic events.</p> -->
+            </div>
+
+            <!-- <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">📚</div>
+                    <h3>Class Schedules</h3>
+                    <p>All your lecture times, lab sessions, and tutorial schedules in one place</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📝</div>
+                    <h3>Assignment Deadlines</h3>
+                    <p>Never miss submission dates for assignments, projects, and reports</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <h3>Exam Dates</h3>
+                    <p>Important exam schedules, mid-terms, and final examination dates</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Academic Events</h3>
+                    <p>Workshops, seminars, and other academic activities</p>
+                </div>
+            </div> -->
+
+            <div class="download-section">
+                <h3>Get Your Calendar</h3>
+                <div class="button-group">
+                    <a href="#" class="btn btn-primary" onclick="downloadICS()">
+                        📥 Download ICS File
+                    </a>
+                </div>
+            </div>
+            <p style="text-align: center;">OR</p>
+            <div class="button-group">
+                <a href="#" class="btn btn-secondary" onclick="subscribeToCalendar()">
+                    🔗 Subscribe to Calendar
+                </a>
+            </div>
+            <div class="instructions">
+                <h4>How to Use Your Calendar</h4>
+                <ol>
+                    <li><strong>Download Option:</strong> Click "Download ICS File" to save the calendar file to your device. You can then import it into your preferred calendar application.</li>
+                    <li><strong>Subscribe Option:</strong> Click "Subscribe to Calendar" to get a link that you can add to your calendar app. This will automatically update when new events are added.</li>
+                    <li><strong>Supported Apps:</strong> Works with Google Calendar, Apple Calendar, Outlook, and most other calendar applications.</li>
+                    <li><strong>Automatic Updates:</strong> Subscribed calendars will automatically sync new events without manual downloads.</li>
+                </ol>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy;University of Moratuwa - BIT Lateral Entry 24S2</p>
+        </footer>
+    </div>
+
+    <script>
+        function downloadICS() {
+            // Create a link element to trigger the download
+            const link = document.createElement('a');
+            link.href = 'events.ics';
+            link.download = 'bit_events.ics';
+            link.style.display = 'none';
+            
+            // Add to document, click it, and remove it
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        function subscribeToCalendar() {
+            // Get the current page URL and construct the events.ics URL
+            const currentUrl = window.location.href;
+            const baseUrl = currentUrl.substring(0, currentUrl.lastIndexOf('/') + 1);
+            const icsUrl = baseUrl + 'events.ics';
+            
+            // Copy the URL to clipboard
+            navigator.clipboard.writeText(icsUrl).then(function() {
+                alert('Calendar URL copied to clipboard!\n\n' +
+                      'To subscribe to this calendar:\n\n' +
+                      '📱 Google Calendar:\n' +
+                      '1. Go to Google Calendar\n' +
+                      '2. Click the "+" next to "Other calendars"\n' +
+                      '3. Select "From URL"\n' +
+                      '4. Paste the copied URL and click "Add calendar"\n\n' +
+                      '🍎 Apple Calendar:\n' +
+                      '1. Open Calendar app\n' +
+                      '2. Go to File > New Calendar Subscription\n' +
+                      '3. Paste the copied URL and click "Subscribe"\n\n' +
+                      '💻 Outlook:\n' +
+                      '1. Go to Calendar view\n' +
+                      '2. Right-click "Other calendars" > "Add calendar" > "From Internet"\n' +
+                      '3. Paste the copied URL and click "OK"\n\n' +
+                      'The calendar will automatically update when new events are added!');
+            }).catch(function(err) {
+                // Fallback for older browsers or if clipboard access is denied
+                alert('Calendar URL: ' + icsUrl + '\n\n' +
+                      'Please copy this URL manually and follow the instructions:\n\n' +
+                      '📱 Google Calendar:\n' +
+                      '1. Go to Google Calendar\n' +
+                      '2. Click the "+" next to "Other calendars"\n' +
+                      '3. Select "From URL"\n' +
+                      '4. Paste the URL and click "Add calendar"\n\n' +
+                      '🍎 Apple Calendar:\n' +
+                      '1. Open Calendar app\n' +
+                      '2. Go to File > New Calendar Subscription\n' +
+                      '3. Paste the URL and click "Subscribe"\n\n' +
+                      '💻 Outlook:\n' +
+                      '1. Go to Calendar view\n' +
+                      '2. Right-click "Other calendars" > "Add calendar" > "From Internet"\n' +
+                      '3. Paste the URL and click "OK"');
+            });
+        }
+    </script>
+</body>
+</html>
