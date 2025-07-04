@@ -4,181 +4,50 @@ CALSCALE:GREGORIAN
 PRODID:-//Shared Events//BIT//EN
 BEGIN:VEVENT
 UID:1@bit-calendar
-DTSTAMP:20250608T033000Z
-DTSTART:20250608T033000Z
-SUMMARY:Check your understanding opens
-DESCRIPTION:BIT Inauguration 2025 (Intake 24S2) Lateral Entry\nhttps://online.codl.lk/mod/quiz/view.php?id=98656
-URL:https://online.codl.lk/mod/quiz/view.php?id=98656
+DTSTAMP:20250702T143000Z
+DTSTART:20250702T143000Z
+SUMMARY:Plagiarism, Referencing and Report Writing - General Understanding Quiz opens
+DESCRIPTION:https://online.codl.lk/course/view.php?id=1302\nhttps://online.codl.lk/mod/quiz/view.php?id=98717
+URL:https://online.codl.lk/mod/quiz/view.php?id=98717
 END:VEVENT
 BEGIN:VEVENT
 UID:2@bit-calendar
-DTSTAMP:20250608T133000Z
-DTSTART:20250608T133000Z
-DTEND:20250608T150000Z
-SUMMARY:SRS Writing Session (Via Zoom)
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/course/view.php?id=1302
-URL:https://online.codl.lk/course/view.php?id=1302
-END:VEVENT
-BEGIN:VEVENT
-UID:3@bit-calendar
-DTSTAMP:20250608T182500Z
-DTSTART:20250608T182500Z
-SUMMARY:Practice Forum is due
-DESCRIPTION:BIT Inauguration 2025 (Intake 24S2) Lateral Entry\nhttps://online.codl.lk/mod/forum/view.php?id=98658
-URL:https://online.codl.lk/mod/forum/view.php?id=98658
-END:VEVENT
-BEGIN:VEVENT
-UID:4@bit-calendar
-DTSTAMP:20250611T143000Z
-DTSTART:20250611T143000Z
-SUMMARY:Starting your BIT project - General Understanding Quiz opens
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/quiz/view.php?id=98705
-URL:https://online.codl.lk/mod/quiz/view.php?id=98705
-END:VEVENT
-BEGIN:VEVENT
-UID:5@bit-calendar
-DTSTAMP:20250612T140000Z
-DTSTART:20250612T140000Z
-SUMMARY:How to be successful in your project - General Understanding Quiz opens
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/quiz/view.php?id=98715
-URL:https://online.codl.lk/mod/quiz/view.php?id=98715
-END:VEVENT
-BEGIN:VEVENT
-UID:6@bit-calendar
-DTSTAMP:20250613T143000Z
-DTSTART:20250613T143000Z
-SUMMARY:Expectations of Your Project - General Understanding Quiz opens
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/quiz/view.php?id=98731
-URL:https://online.codl.lk/mod/quiz/view.php?id=98731
-END:VEVENT
-BEGIN:VEVENT
-UID:7@bit-calendar
-DTSTAMP:20250614T063000Z
-DTSTART:20250614T063000Z
-SUMMARY:Importance of a Final Year Project - General Understanding Quiz opens
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/quiz/view.php?id=98714
-URL:https://online.codl.lk/mod/quiz/view.php?id=98714
-END:VEVENT
-BEGIN:VEVENT
-UID:8@bit-calendar
-DTSTAMP:20250616T133000Z
-DTSTART:20250616T133000Z
-DTEND:20250616T150000Z
-SUMMARY:SRS Writing Session (Via Zoom)
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/course/view.php?id=1302
-URL:https://online.codl.lk/course/view.php?id=1302
-END:VEVENT
-BEGIN:VEVENT
-UID:9@bit-calendar
-DTSTAMP:20250619T182900Z
-DTSTART:20250619T182900Z
-SUMMARY:Group Activity Submission is due
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/assign/view.php?id=98793
-URL:https://online.codl.lk/mod/assign/view.php?id=98793
-END:VEVENT
-BEGIN:VEVENT
-UID:10@bit-calendar
-DTSTAMP:20250620T143000Z
-DTSTART:20250620T143000Z
-SUMMARY:Participation for the Group Activity at the University (28th June 2025) opens
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/choice/view.php?id=98719
-URL:https://online.codl.lk/mod/choice/view.php?id=98719
-END:VEVENT
-BEGIN:VEVENT
-UID:11@bit-calendar
-DTSTAMP:20250620T182500Z
-DTSTART:20250620T182500Z
-SUMMARY:Assignment 1 is due
-DESCRIPTION:BIT Inauguration 2025 (Intake 24S2) Lateral Entry\nhttps://online.codl.lk/mod/assign/view.php?id=98657
-URL:https://online.codl.lk/mod/assign/view.php?id=98657
-END:VEVENT
-BEGIN:VEVENT
-UID:12@bit-calendar
-DTSTAMP:20250620T182500Z
-DTSTART:20250620T182500Z
-SUMMARY:Check your understanding closes
-DESCRIPTION:BIT Inauguration 2025 (Intake 24S2) Lateral Entry\nhttps://online.codl.lk/mod/quiz/view.php?id=98656
-URL:https://online.codl.lk/mod/quiz/view.php?id=98656
-END:VEVENT
-BEGIN:VEVENT
-UID:13@bit-calendar
-DTSTAMP:20250621T183000Z
-DTSTART:20250621T183000Z
-SUMMARY:Topic Selection  Submission (based on your interest) opens
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/choice/view.php?id=98724
-URL:https://online.codl.lk/mod/choice/view.php?id=98724
-END:VEVENT
-BEGIN:VEVENT
-UID:14@bit-calendar
-DTSTAMP:20250623T182900Z
-DTSTART:20250623T182900Z
-SUMMARY:Topic Selection  Submission (based on your interest) closes
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/choice/view.php?id=98724
-URL:https://online.codl.lk/mod/choice/view.php?id=98724
-END:VEVENT
-BEGIN:VEVENT
-UID:15@bit-calendar
-DTSTAMP:20250624T182900Z
-DTSTART:20250624T182900Z
-SUMMARY:Participation for the Group Activity at the University (28th June 2025) closes
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/choice/view.php?id=98719
-URL:https://online.codl.lk/mod/choice/view.php?id=98719
-END:VEVENT
-BEGIN:VEVENT
-UID:16@bit-calendar
-DTSTAMP:20250626T133000Z
-DTSTART:20250626T133000Z
-DTEND:20250626T150000Z
-SUMMARY:SRS Writing Session (Via Zoom)
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/course/view.php?id=1302
-URL:https://online.codl.lk/course/view.php?id=1302
-END:VEVENT
-BEGIN:VEVENT
-UID:17@bit-calendar
-DTSTAMP:20250627T182900Z
-DTSTART:20250627T182900Z
+DTSTAMP:20250704T182900Z
+DTSTART:20250704T182900Z
 SUMMARY:Intention to Register for ITE3962 Project - 24S2 closes
-DESCRIPTION:🛠️ BIT Student Matters (24S2)\nhttps://online.codl.lk/mod/quiz/view.php?id=98642
+DESCRIPTION:https://online.codl.lk/course/view.php?id=1300\nhttps://online.codl.lk/mod/quiz/view.php?id=98642
 URL:https://online.codl.lk/mod/quiz/view.php?id=98642
 END:VEVENT
 BEGIN:VEVENT
-UID:18@bit-calendar
-DTSTAMP:20250627T182900Z
-DTSTART:20250627T182900Z
+UID:3@bit-calendar
+DTSTAMP:20250704T182900Z
+DTSTART:20250704T182900Z
 SUMMARY:Semester Registration - 24S2 - LE- Developer Track closes
-DESCRIPTION:🛠️ BIT Student Matters (24S2)\nhttps://online.codl.lk/mod/quiz/view.php?id=98683
+DESCRIPTION:https://online.codl.lk/course/view.php?id=1300\nhttps://online.codl.lk/mod/quiz/view.php?id=98683
 URL:https://online.codl.lk/mod/quiz/view.php?id=98683
 END:VEVENT
 BEGIN:VEVENT
-UID:19@bit-calendar
-DTSTAMP:20250627T182900Z
-DTSTART:20250627T182900Z
-SUMMARY:Starting your BIT project - General Understanding Quiz closes
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/quiz/view.php?id=98705
-URL:https://online.codl.lk/mod/quiz/view.php?id=98705
+UID:4@bit-calendar
+DTSTAMP:20250705T182900Z
+DTSTART:20250705T182900Z
+SUMMARY:Topic Selection  Submission (based on your interest) - Extended till 5th July 2025, 11.59 pm closes
+DESCRIPTION:https://online.codl.lk/course/view.php?id=1302\nhttps://online.codl.lk/mod/choice/view.php?id=98724
+URL:https://online.codl.lk/mod/choice/view.php?id=98724
 END:VEVENT
 BEGIN:VEVENT
-UID:20@bit-calendar
-DTSTAMP:20250627T182900Z
-DTSTART:20250627T182900Z
-SUMMARY:Importance of a Final Year Project - General Understanding Quiz closes
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/quiz/view.php?id=98714
-URL:https://online.codl.lk/mod/quiz/view.php?id=98714
+UID:5@bit-calendar
+DTSTAMP:20250706T182900Z
+DTSTART:20250706T182900Z
+SUMMARY:Literature Review for the selected Area (Deadline: 6th July 2025, 11:59 PM) is due
+DESCRIPTION:https://online.codl.lk/course/view.php?id=1302\nhttps://online.codl.lk/mod/assign/view.php?id=98726
+URL:https://online.codl.lk/mod/assign/view.php?id=98726
 END:VEVENT
 BEGIN:VEVENT
-UID:21@bit-calendar
-DTSTAMP:20250627T182900Z
-DTSTART:20250627T182900Z
-SUMMARY:How to be successful in your project - General Understanding Quiz closes
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/quiz/view.php?id=98715
-URL:https://online.codl.lk/mod/quiz/view.php?id=98715
-END:VEVENT
-BEGIN:VEVENT
-UID:22@bit-calendar
-DTSTAMP:20250627T182900Z
-DTSTART:20250627T182900Z
-SUMMARY:Expectations of Your Project - General Understanding Quiz closes
-DESCRIPTION:Final Year Project Preparation - 2024S2\nhttps://online.codl.lk/mod/quiz/view.php?id=98731
-URL:https://online.codl.lk/mod/quiz/view.php?id=98731
+UID:6@bit-calendar
+DTSTAMP:20250706T182900Z
+DTSTART:20250706T182900Z
+SUMMARY:Plagiarism, Referencing and Report Writing - General Understanding Quiz closes
+DESCRIPTION:https://online.codl.lk/course/view.php?id=1302\nhttps://online.codl.lk/mod/quiz/view.php?id=98717
+URL:https://online.codl.lk/mod/quiz/view.php?id=98717
 END:VEVENT
 END:VCALENDAR
